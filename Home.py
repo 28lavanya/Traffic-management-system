@@ -41,7 +41,7 @@ def connect_db():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="@lav2810",
+        password="password",
         database="multi_vehicle_data"
     )
 
