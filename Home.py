@@ -39,9 +39,9 @@ if refresh_toggle:
 # --- MySQL Connection ---
 def connect_db():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="password",
+        host="host name",
+        user="user name",
+        password="your password",
         database="multi_vehicle_data"
     )
 
