@@ -7,7 +7,7 @@ import mysql.connector
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="@lav2810",
+    password="password",
     database="multi_vehicle_data"
 )
 cursor = db.cursor()
