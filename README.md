@@ -28,20 +28,20 @@ Before running the project, ensure you have the following installed:
 
 Follow these steps to get the project up and running:
 
-### 1. Clone the repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/traffic-management-system.git
 
-###2. Navigate to the project folder:
+2. Navigate to the project folder:
 cd traffic-management-system
 
-###3. Install the required Python packages:
+3. Install the required Python packages:
 pip install -r requirements.txt
 
-### 4. Set up the MySQL database:
+4. Set up the MySQL database:
 Run the SQL script from the sql_code.txt file to create the multi_vehicle_data database and the lane_vehicle_count table.
 
-##Usage Instructions
+Usage Instructions
 1. Run the vehicle detection script:
 This script processes the video files for each lane and counts the number of vehicles moving forward and backward.
 python multi_vehicle_counter.py
